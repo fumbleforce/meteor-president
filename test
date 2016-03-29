@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo
+echo "Starting chimp tests..."
+echo
+echo "Make sure you have started a meteor instance to test against"
+echo
+echo "Note! You might need to run this as sudo if this is the first time."
+echo
+
+chimp --watch --ddp=http://localhost:3000 --path=./features
